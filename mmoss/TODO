@@ -1,0 +1,31 @@
+Current upcoming TODO list:
+
+DONE 1. Announce when players disconnect or quit from the server (so clients can remove them from the display list)
+PARTLY DONE 2. Subclass the player objects as ships and create other subclasses for bullets, mines, torpedos, etc.
+DONE 3. Ability for ships to create bullet objects
+DONE 4. Bullet type objects need a lifespan.
+DONE 5. Server must have a poll cycle and collision detection (ugh). Collision events to clients.
+DONE 6. Efficient screen updates (track rectangles, etc.)
+6.1 Consider using Pygame sprites for on-screen objects?
+DONE 7. Refactor the server/protocol code
+DONE 8. Ship fuel levels - report to clients
+DONE 9. Shot scoring - report to clients
+DONE 10. Asteroids!
+PARTLY DONE 11. Custom images/icons in asset directories should communicate to peers (let's avoid sending binaries over network for now)
+12. Support for peer-peer messaging (chat)
+CUSTOMIZABLE 13. Balance rotational agility, acceleration, shields, weapons. 
+DONE 14. Low power retro-thrusting.
+DONE 15. Logging off by default, to file upon request.
+SKIP 16. Check for and log choke (inability to finish in time slice) [overruns are very common]
+17. Predictive behavior on client
+DONE 18. More sophisticated lag compensation - round trip timing, command time
+
+Student enhancements:
+
+1. Use assets to enhance appearance and sound.
+2. Report scoring information to players
+3. Screen zooming, scrolling
+4. Aim bots
+5. Chat interface
+
+Hmm... not enough here?
